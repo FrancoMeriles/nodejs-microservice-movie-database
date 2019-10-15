@@ -1,6 +1,6 @@
 # Micro Service - Node JS
 
-This Project is a micro service using nodejs and the api [Movie Database Api](https://www.themoviedb.org/documentation/api)
+This Project is a micro service using nodeJS, ExpressJS and the api [Movie Database Api](https://www.themoviedb.org/documentation/api)
 
 ### Folder Structure
 
