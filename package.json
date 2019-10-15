@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-microservice-movie-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoMeriles/nodejs-microservice-movie-database.git"
+  },
+  "author": "Franco Meriles fran.meriles@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrancoMeriles/nodejs-microservice-movie-database/issues"
+  },
+  "homepage": "https://github.com/FrancoMeriles/nodejs-microservice-movie-database#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
