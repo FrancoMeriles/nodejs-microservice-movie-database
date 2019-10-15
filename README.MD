@@ -6,17 +6,29 @@ This Project is a micro service using nodeJS, ExpressJS and the api [Movie Datab
 
 ```
 src
-    └── controllers
-    │   └── movie.controller.js
-    │   └── search.controller.js
-    └── routes
-    │   └── movie.js
-    │   └── search.js
-    └── services
-    │   └── defaultSetting.js
-    │   └── movieService.js
-    └── app.js
-    └── index.js
+│   └── controllers
+│   │   └── movie.controller.js
+│   │   └── search.controller.js
+│   └── routes
+│   │   └── movie.js
+│   │   └── search.js
+│   └── services
+│   │   └── defaultSetting.js
+│   │   └── movieService.js
+│   └── app.js
+│   └── index.js
+└── .gitignore
+└── package.json
+└── package-lock.json
+```
+
+### ENVIROMENT
+
+- Create a `.env` file and place the following.
+
+```
+SECRET_KEY="API KEY MOVIE DATA BASE"
+MOVIE_DATABASE_URL="https://api.themoviedb.org/3"
 ```
 
 ### Routes
