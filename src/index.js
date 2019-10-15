@@ -1,6 +1,6 @@
 const app = require("./app");
 
-//IFEE START
+//IIFE START APP
 
 (async function main() {
   await app.listen(app.get("port"));
