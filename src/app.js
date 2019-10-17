@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 //routes
-app.use(`${app.get("base_url")}/movies`, require("./routes/movies"));
-app.use(`${app.get("base_url")}/search`, require("./routes/search"));
+app.use(`${app.get("base_url")}/movies`, require("./routes/movies.route"));
+app.use(`${app.get("base_url")}/search`, require("./routes/search.route"));
 
 module.exports = app;

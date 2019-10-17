@@ -22,13 +22,26 @@ src
 └── package-lock.json
 ```
 
-### ENVIROMENT
+### How to use it
 
-- Create a `.env` file and place the following.
+- Clone this repo and install all dependencies
+
+```sh
+npm install
+```
+
+- Create an account in [Movie Database Api](https://www.themoviedb.org/documentation/api) and get your API KEY
+- Create a `.env` file in the root directory and place the following.
 
 ```
 SECRET_KEY="API KEY MOVIE DATA BASE"
 MOVIE_DATABASE_URL="https://api.themoviedb.org/3"
+```
+
+- Run this project.
+
+```sh
+npm start
 ```
 
 ### Routes

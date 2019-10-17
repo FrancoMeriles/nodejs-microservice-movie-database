@@ -1,4 +1,4 @@
-const movieService = require("../services/movieService");
+const movieService = require("../services/movie.service");
 
 movieCtrl = {};
 
