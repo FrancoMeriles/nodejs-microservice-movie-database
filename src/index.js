@@ -1,5 +1,5 @@
+require("./db/db");
 const app = require("./app");
-
 //IIFE START APP
 
 (async function main() {
