@@ -11,9 +11,7 @@ app.set("base_url", "/api");
 app.use(cors());
 app.use(express.json());
 
-//routes
-app.use(`${app.get("base_url")}/movies`, require("./routes/movies.route"));
-app.use(`${app.get("base_url")}/search`, require("./routes/search.route"));
-app.use(`${app.get("base_url")}/tv`, require("./routes/tv.route"));
+//route
+app.use(`${app.get("base_url")}`, require("./routes/"));
 
 module.exports = app;
